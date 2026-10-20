@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gửi cô gái của anh ❤️</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #ff758c, #ffb7c5, #ffe0e9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 12px;
+    color: #a31545;
+}
+
+.container {
+    width: 100%;
+    max-width: 460px;
+    padding: 35px 24px;
+    text-align: center;
+    border-radius: 28px;
+    background: rgba(255,255,255,.9);
+    box-shadow: 0 15px 50px #a31b4933;
+    position: relative;
+    z-index: 2;
+    animation: appear 1.2s ease;
+}
+
+.rose {
+    font-size: 65px;
+    animation: sway 2s infinite ease-in-out;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: clamp(28px, 8vw, 38px);
+    line-height: 1.4;
+    margin: 18px 0;
+}
+
+.tag {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #d6336c;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+p {
+    line-height: 1.9;
+    color: #8e4560;
+}
+
+.divider {
+    width: 75px;
+    height: 3px;
+    background: #ff85a1;
+    margin: 22px auto;
+    border-radius: 10px;
+}
+
+.love {
+    position: fixed;
+    z-index: 3;
+    left: 50%;
+    top: 12%;
+    transform: translateX(-50%);
+    color: #e91e63;
+    font-size: clamp(35px, 8vw, 50px);
+    font-weight: bold;
+    font-family: cursive;
+    white-space: nowrap;
+    text-shadow: 0 0 12px white, 0 0 25px #ff4081;
+    pointer-events: none;
+    animation: loveFloat 3s ease-in-out infinite;
+}
+
+button {
+    border: none;
+    background: linear-gradient(135deg, #ff477e, #e91e63);
+    color: white;
+    padding: 14px 24px;
+    margin-top: 24px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 6px 18px #e91e6340;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#letter {
+    display: none;
+    margin-top: 25px;
+    padding: 20px;
+    background: #fff0f5;
+    border-radius: 18px;
+    text-align: left;
+    line-height: 1.9;
+    animation: appear .8s ease;
+}
+
+#letter h2 {
+    text-align: center;
+    color: #d6336c;
+    margin-bottom: 12px;
+}
+
+.signature {
+    text-align: right;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.footer {
+    margin-top: 24px;
+    font-size: 12px;
+}
+
+.floating {
+    position: fixed;
+    bottom: -60px;
+    z-index: 5;
+    pointer-events: none;
+    user-select: none;
+    animation: flowerFly linear forwards;
+}
+
+@keyframes flowerFly {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0;
+    }
+    10% { opacity: 1; }
+    50% { transform: translate(45px, -50vh) rotate(180deg); }
+    100% {
+        transform: translate(-35px, -115vh) rotate(420deg);
+        opacity: 0;
+    }
+}
+
+@keyframes loveFloat {
+    0%, 100% { transform: translate(-50%, 0) rotate(-5deg); }
+    50% { transform: translate(-50%, -18px) rotate(5deg); }
+}
+
+@keyframes sway {
+    0%, 100% { transform: rotate(-8deg); }
+    50% { transform: rotate(8deg); }
+}
+
+@keyframes appear {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+</style>
+</head>
+
+<body>
+
+<div class="love">Yêu em ❤️</div>
+
+<main class="container">
+    <div class="rose">💐🌹</div>
+
+    <div class="tag">HAPPY WOMEN'S DAY</div>
+
+    <h1>
+        Chúc mừng 20/10,<br>
+        cô gái của anh ❤️
+    </h1>
+
+    <p>
+        Hôm nay là ngày đặc biệt,<br>
+        dành cho một người cũng thật đặc biệt.
+    </p>
+
+    <div class="divider"></div>
+
+    <p>
+        Anh có một món quà nhỏ<br>
+        muốn dành riêng cho em... 💌
+    </p>
+
+    <button id="openButton" onclick="openLetter()">
+        💌 Mở thư của anh
+    </button>
+
+    <section id="letter">
+        <h2>Gửi cô gái anh thương ❤️</h2>
+
+        <p>
+            Chúc em ngày 20/10 thật vui vẻ, luôn xinh đẹp,
+            bình an và hạnh phúc. Mong những điều tốt đẹp nhất
+            sẽ đến với em.
+        </p>
+
+        <p>
+            Cảm ơn em đã xuất hiện trong cuộc sống của anh.
+            Anh mong mình có thể cùng nhau tạo nên thật nhiều
+            kỷ niệm đẹp, cùng cười, cùng vui và cùng vượt qua
+            những ngày không dễ dàng.
+        </p>
+
+        <p>
+            Mong em luôn được yêu thương, trân trọng và có
+            thật nhiều lý do để mỉm cười. Nếu hôm nay em chưa
+            có hoa, anh gửi em cả vườn hoa này nhé! 🌹🌷🌸
+        </p>
+
+        <p>
+            <strong>Chúc mừng 20/10, cô gái của anh!</strong>
+            Anh thương em nhiều lắm. ❤️
+        </p>
+
+        <p class="signature">
+            Từ người luôn mong em hạnh phúc 💗
+        </p>
+    </section>
+
+    <p class="footer">MINH THƯ 💕</p>
+</main>
+
+<script>
+const flowers = [
+    "🌹", "🌸", "🌺", "🌷", "💮", "🌼",
+    "🪷", "💕", "💗", "❤️", "🌸", "🌻", "✨"
+];
+
+function createFlower() {
+    const item = document.createElement("div");
+    item.className = "floating";
+
+    item.textContent =
+        flowers[Math.floor(Math.random() * flowers.length)];
+
+    item.style.left = Math.random() * 100 + "vw";
+    item.style.fontSize = (18 + Math.random() * 25) + "px";
+
+    const duration = 4 + Math.random() * 5;
+    item.style.animationDuration = duration + "s";
+
+    document.body.appendChild(item);
+
+    setTimeout(() => item.remove(), duration * 1000);
+}
+
+// Hoa bay liên tục
+setInterval(createFlower, 180);
+
+// Tạo sẵn hoa khi mở trang
+for (let i = 0; i < 45; i++) {
+    setTimeout(createFlower, i * 100);
+}
+
+function openLetter() {
+    document.getElementById("letter").style.display = "block";
+    document.getElementById("openButton").style.display = "none";
+
+    for (let i = 0; i < 35; i++) {
+        setTimeout(createFlower, i * 80);
+    }
+
+    document.getElementById("letter").scrollIntoView({
+        behavior: "smooth",
+        block: "nearest"
+    });
+}
+</script>
+
+</body>
+</html>
